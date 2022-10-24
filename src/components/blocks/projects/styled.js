@@ -35,8 +35,7 @@ export const ProjectItem = styled.li`
 `;
 
 export const ProjectDescription = styled.div`
-  padding-left: 30px;
-  padding-right: 30px;
+  
 `;
 
 export const ProjectLink = styled.a`

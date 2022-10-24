@@ -6,6 +6,7 @@ export const defaultTheme = {
   maxPageWidth: '1280px',
   fontFamily: '"Montserrat", "Arial", sans-serif;',
   fontSizeDefault: '16px',
+  fontSizeMobile: '12px',
   lineHeightDefault: '28px',
   fontWeightDefault: '400',
 };

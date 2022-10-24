@@ -24,6 +24,12 @@ export const StyledSection = styled.section`
   }
 `;
 
+export const SectionTitle = styled.h2`
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+`;
+
 export const SocialLinkImage = styled(Img)`
   width: 32px;
   height: 32px;

@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   StyledSection,
+  SectionTitle,
   SocialLinkImage,
   ContactLink,
   SocialLink,
@@ -11,7 +12,7 @@ import watsapp from '../../../assets/whatsapp.svg';
 export default function Contacts({ className }) {
   return (
     <StyledSection className={className}>
-      <h2>Контакты:</h2>
+      <SectionTitle>Контакты:</SectionTitle>
       <div>
         <h4>Email:</h4>
         <ContactLink href="mailto:deniskalkopf@gmail.com">
@@ -29,7 +30,9 @@ export default function Contacts({ className }) {
         </SocialLink>
       </div>
       <p>
-        <ContactLink href="https://github.com/DenisJet">Сылка на мой GitHub</ContactLink>
+        <ContactLink href="https://github.com/DenisJet">
+          Сылка на мой GitHub
+        </ContactLink>
       </p>
     </StyledSection>
   );

@@ -25,11 +25,12 @@ export const IntroTitle = styled.div`
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    vertical-align: middle;
   }
 
   @media (${devices.TABLET}) {
     flex-direction: row;
-    align-items: last baseline;
+    align-items: baseline;
   }
 
   & h1 {

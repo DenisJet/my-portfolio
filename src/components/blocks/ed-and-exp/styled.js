@@ -1,28 +1,19 @@
 import styled from 'styled-components';
 import { devices } from '../../../consts';
 
-export const StyledSection = styled.div`
+export const StyledSection = styled.section`
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-`;
-
-export const Experience = styled.div`
-  margin-bottom: 50px;
-  padding-top: 10px;
 
   @media (${devices.TABLET}) {
     padding-top: 0;
   }
 
-  & div {
-    margin-left: 40px;
-  }
-`;
-
-export const Education = styled.div`
   & a {
     color: ${(props) => props.theme.colorGray};
     text-decoration: none;
@@ -39,4 +30,10 @@ export const Education = styled.div`
       color: ${(props) => props.theme.colorBlack};
     }
   }
+`;
+
+export const SectionTitle = styled.h2`
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
 `;
