@@ -6,7 +6,7 @@ import {
   IntroImage,
   IntroText,
 } from './styled';
-import photo1 from '../../../assets/my-photo1.jpg';
+import photo from '../../../assets/my-photo3.jpg';
 
 export default function Intro({ className }) {
   return (
@@ -20,7 +20,7 @@ export default function Intro({ className }) {
         <p>Веб разработчик</p>
       </IntroTitle>
       <IntroWrapper>
-        <IntroImage alt="Denis Kalkopf" src={photo1} height="400" width="400" />
+        <IntroImage alt="Denis Kalkopf" src={photo} height="400" width="400" />
         <IntroText>
           <p>
             Привет! Моё имя Денис. Я интересуюсь веб разработкой и всем что с
