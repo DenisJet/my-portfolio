@@ -1,10 +1,31 @@
 export const projects = [
   {
     id: 0,
+    name: 'СЭС Служба "Чистый Дом"',
+    image: 'images/cleanhouse.png',
+    title: 'Сайт службы по уничтожению насекомых.',
+    description: 'Рабочий проект. Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, Sass, Gulp. Оптимизация изображений.',
+    opinion:
+      'Сайт полностью мной придуман, разработан и выложен на хостинг.',
+    link: 'https://cleanhouse-ses.ru',
+    repolink: 'https://github.com/DenisJet/CleanHouse',
+  },
+  {
+    id: 1,
+    name: 'Большое путешествие',
+    image: 'images/big-trip.png',
+    title: 'Cовременный сервис для путешественников.',
+    description: 'Учебный проект. SPA на чистом JavaScript. ООП. MVP.',
+    opinion:
+      'Сервис помогает детально спланировать маршрут поездки, рассчитать стоимость путешествия и получить информацию о достопримечательностях. За время реализации проекта познакомился с ООП. В проекте используется классовый подход. Научился применять архитектурный паттерн MVP. Разобрался с REST Api. Так же используются паттерны Адаптер и Observer (Наблюдатель). Познакомился с работой сервис-воркеров.',
+    link: 'https://denisjet-big-trip.netlify.app/',
+    repolink: 'https://github.com/DenisJet/big-trip',
+  },
+  {
+    id: 2,
     name: 'Фермерские продукты',
     image: 'images/fermers-products.png',
-    title:
-      'Пример интернет магазина фермерских продуктов.',
+    title: 'Пример интернет магазина фермерских продуктов.',
     description:
       'Учебный проект. Использование библиотеки React. Styled-components, react hooks, react-router.',
     opinion:
@@ -13,11 +34,10 @@ export const projects = [
     repolink: 'https://github.com/DenisJet/fermers-products',
   },
   {
-    id: 1,
+    id: 3,
     name: 'Kekstagram',
     image: 'images/kekstagram.png',
-    title:
-      'Кекстаграм — сервис просмотра изображений.',
+    title: 'Кекстаграм — сервис просмотра изображений.',
     description:
       'Учебный проект. Пользователям предоставлена возможность загружать свои фотографии или просматривать фотографии, загруженные ранее другими пользователями.',
     opinion:
@@ -26,7 +46,7 @@ export const projects = [
     repolink: 'https://github.com/DenisJet/Kekstagram',
   },
   {
-    id: 2,
+    id: 4,
     name: 'Keksobooking',
     image: 'images/keksobooking.png',
     title:
@@ -39,7 +59,7 @@ export const projects = [
     repolink: 'https://github.com/DenisJet/Keksobooking',
   },
   {
-    id: 3,
+    id: 5,
     name: 'Drink2Go',
     image: 'images/drink2go.png',
     title: 'Главная страница интернет магазина кофейных напитков.',
