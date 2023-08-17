@@ -42,7 +42,7 @@ export const SkillsUl = styled(Ul)`
 `;
 
 export const SkillsImage = styled(Img)`
-  height: 50px;
+  height: 75px;
   margin-bottom: 25px;
 `;
 

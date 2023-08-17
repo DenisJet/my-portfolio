@@ -1,17 +1,29 @@
 export const projects = [
   {
-    id: 0,
+    id: 7,
+    name: 'Что посмотреть',
+    image: 'images/wtw.png',
+    title: '«Что посмотреть» — онлайн кинотеатр нового поколения.',
+    description:
+      'Учебный проект. React. React-router. React Hooks (useState, useEffect, useRef и др.). Redux, Redux Toolkit. Axios. Jest.',
+    opinion:
+      'Сервис позволяет просматривать видео, ставить оценки и отзывы. За время реализации проекта более близко познакомился с библиотекой React. В проекте затронуты такие моменты как: маршрутизация - React Router и приватные маршруты в React Router, работа с хуками, работа с формами. Реализованно хранилище состояния при помощи Redux Toolkit и асинхронность в Redux при помощи middlewares, redux-thunk. Научился тестировать приложение при помощи Unit тестов и библиотеки Jest. Для работы с сервером используется библиотека Axios. Реализована авторизация.',
+    link: 'https://denisjet-wtw.netlify.app/',
+    repolink: 'https://github.com/DenisJet/wtw',
+  },
+  {
+    id: 6,
     name: 'СЭС Служба "Чистый Дом"',
     image: 'images/cleanhouse.png',
     title: 'Сайт службы по уничтожению насекомых.',
-    description: 'Рабочий проект. Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, Sass, Gulp. Оптимизация изображений.',
-    opinion:
-      'Сайт полностью мной придуман, разработан и выложен на хостинг.',
+    description:
+      'Рабочий проект. Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, Sass, Gulp. Оптимизация изображений.',
+    opinion: 'Сайт полностью мной придуман, разработан и выложен на хостинг.',
     link: 'https://cleanhouse-ses.ru',
     repolink: 'https://github.com/DenisJet/CleanHouse',
   },
   {
-    id: 1,
+    id: 5,
     name: 'Большое путешествие',
     image: 'images/big-trip.png',
     title: 'Cовременный сервис для путешественников.',
@@ -22,7 +34,7 @@ export const projects = [
     repolink: 'https://github.com/DenisJet/big-trip',
   },
   {
-    id: 2,
+    id: 4,
     name: 'Фермерские продукты',
     image: 'images/fermers-products.png',
     title: 'Пример интернет магазина фермерских продуктов.',
@@ -46,7 +58,7 @@ export const projects = [
     repolink: 'https://github.com/DenisJet/Kekstagram',
   },
   {
-    id: 4,
+    id: 2,
     name: 'Keksobooking',
     image: 'images/keksobooking.png',
     title:
@@ -59,7 +71,7 @@ export const projects = [
     repolink: 'https://github.com/DenisJet/Keksobooking',
   },
   {
-    id: 5,
+    id: 1,
     name: 'Drink2Go',
     image: 'images/drink2go.png',
     title: 'Главная страница интернет магазина кофейных напитков.',

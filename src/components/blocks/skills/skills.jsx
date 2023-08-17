@@ -8,6 +8,8 @@ import sassImg from '../../../assets/sass.svg';
 import gulpImg from '../../../assets/gulp.svg';
 import webpackImg from '../../../assets/webpack.svg';
 import gitImg from '../../../assets/git.svg';
+import reduxImg from '../../../assets/redux.svg';
+import jestImg from '../../../assets/jest.svg';
 
 export default function Skills({ className }) {
   return (
@@ -23,6 +25,10 @@ export default function Skills({ className }) {
           <SkillsText>Css</SkillsText>
         </li>
         <li>
+          <SkillsImage src={sassImg} alt="sass" />
+          <SkillsText>Sass</SkillsText>
+        </li>
+        <li>
           <SkillsImage src={jsImg} alt="javascript" />
           <SkillsText>JavaScript</SkillsText>
         </li>
@@ -31,8 +37,12 @@ export default function Skills({ className }) {
           <SkillsText>React</SkillsText>
         </li>
         <li>
-          <SkillsImage src={sassImg} alt="sass" />
-          <SkillsText>Sass</SkillsText>
+          <SkillsImage src={reduxImg} alt="sass" />
+          <SkillsText>Redux</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={jestImg} alt="webpack" />
+          <SkillsText>Jest</SkillsText>
         </li>
         <li>
           <SkillsImage src={gulpImg} alt="gulp" />
