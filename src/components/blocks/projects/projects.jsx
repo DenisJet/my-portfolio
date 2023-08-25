@@ -6,18 +6,46 @@ import {
   ProjectItem,
   ProjectDescription,
   ProjectLink,
+  TabsList,
+  TabBtn,
 } from './styled';
+import { useState } from 'react';
 
 export default function Projects({ projects, className }) {
+  const [activeTab, setActiveTab] = useState('учебные');
+
+  const activeProjects = projects.filter((project) => project.type === activeTab);
+
   return (
     <ProjectSection className={className}>
-      <h2>Мои проекты</h2>
+      <TabsList>
+        <h2>Мои проекты:</h2>
+        <TabBtn
+          isActive={activeTab === 'учебные'}
+          onClick={() => setActiveTab('учебные')}
+        >
+          учебные
+        </TabBtn>
+        <TabBtn
+          isActive={activeTab === 'коммерческие'}
+          onClick={() => setActiveTab('коммерческие')}
+        >
+          коммерческие
+        </TabBtn>
+        <TabBtn
+          isActive={activeTab === 'pet-проекты'}
+          onClick={() => setActiveTab('pet-проекты')}
+        >
+          pet-проекты
+        </TabBtn>
+      </TabsList>
+
       <ProjectList>
-        {projects &&
-          projects.length &&
-          projects.map((project) => (
+        {activeProjects &&
+          activeProjects.length &&
+          activeProjects.map((project) => (
             <ProjectItem key={project.id}>
-              <ProjectImage src={project.image} alt="Изображение проекта" />
+              <ProjectImage src={project.image} alt='Изображение проекта' />
               <ProjectDescription>
                 <h3>{project.name}</h3>
                 <p>{project.title}</p>

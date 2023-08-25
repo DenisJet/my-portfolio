@@ -6,7 +6,7 @@ import {
   IntroImage,
   IntroText,
 } from './styled';
-import photo from '../../../assets/my-photo3.jpg';
+import photo from '../../../assets/main-photo.png';
 
 export default function Intro({ className }) {
   return (
