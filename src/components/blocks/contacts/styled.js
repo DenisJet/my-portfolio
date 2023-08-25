@@ -31,8 +31,8 @@ export const SectionTitle = styled.h2`
 `;
 
 export const SocialLinkImage = styled(Img)`
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
 `;
 
 export const ContactLink = styled.a`
@@ -41,17 +41,35 @@ export const ContactLink = styled.a`
 
   &:hover,
   &:active {
-    color: ${(props) => props.theme.colorBlack};
+    opacity: 0.5;
   }
 
   &.active {
-    color: ${(props) => props.theme.colorBlack};
+    opacity: 0.8;
   }
 `;
 
 export const SocialLink = styled.a`
   display: inline-block;
   margin-left: 15px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+`;
+
+export const GithubLink = styled.a`
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  color: ${(props) => props.theme.colorBlack};
+  text-decoration: none;
+  width: 125px;
+  font-weight: 700;
 
   &:hover {
     opacity: 0.5;

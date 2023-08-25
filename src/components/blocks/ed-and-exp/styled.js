@@ -14,6 +14,18 @@ export const StyledSection = styled.section`
     padding-top: 0;
   }
 
+  & p {
+    margin: 0;
+  }
+
+  & li {
+    margin-bottom: 10px;
+  }
+
+  & ol {
+    margin-bottom: 20px;
+  }
+
   & a {
     color: ${(props) => props.theme.colorGray};
     text-decoration: none;

@@ -14,7 +14,9 @@ import { useState } from 'react';
 export default function Projects({ projects, className }) {
   const [activeTab, setActiveTab] = useState('учебные');
 
-  const activeProjects = projects.filter((project) => project.type === activeTab);
+  const activeProjects = projects.filter(
+    (project) => project.type === activeTab
+  );
 
   return (
     <ProjectSection className={className}>
@@ -51,10 +53,10 @@ export default function Projects({ projects, className }) {
                 <p>{project.title}</p>
                 <p>{project.description}</p>
                 <p>{project.opinion}</p>
-                <ProjectLink href={project.link}>
+                <ProjectLink href={project.link} target='blank'>
                   Ссылка на пример проекта
                 </ProjectLink>
-                <ProjectLink href={project.repolink}>
+                <ProjectLink href={project.repolink} target='blank'>
                   Ссылка на репозиторий
                 </ProjectLink>
               </ProjectDescription>

@@ -10,10 +10,49 @@ export default function EdAndExp({ className }) {
       </SectionTitle>
       <ul>
         <li>
+          <span>ноябрь 2022 - август 2023</span>
+          <div>
+            <strong>Курс React-разработчик от HTML Academy.</strong>{' '}
+            <a
+              href='https://assets.htmlacademy.ru/certificates/profession/47/1875311.pdf?1692890714'
+              target='blank'
+            >
+              Сертификат
+            </a>
+            <ol>
+              <li>
+                <p>Разработка веб-интерфейсов при помощи JavaScript:</p>
+                <p> - переменные, типы данных, циклы, контекст(this)</p>
+                <p> - структуры данных, массивы, объекты</p>
+                <p> - области видимости, замыкания, ES модули</p>
+                <p> - DOM и события</p>
+                <p> - работа с сетью и асинхронность(промисы, AJAX, JSON, Fetch API)</p>
+              </li>
+              <li>
+                <p>Разработка SPA на чистом JavaScript:</p>
+                <p> - ООП, объекты, классы</p>
+                <p> - MVP. Model. View. Presenter </p>
+                <p> - работа с сетью REST Api</p>
+                <p> - offline, serviceWorkers</p>
+              </li>
+              <li>
+                <p>Разработка веб-приложений на React:</p>
+                <p> - маршрутизация React Router</p>
+                <p> - состояние (state), React Hooks, useEffect, ref, формы, HOC </p>
+                <p> - Redux, Redux Toolkit, асинхронность в Redux, Middlewares, redux-thunk, Axios</p>
+                <p> - тестирование React, юнит-тестирование, Jest</p>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li>
           <span>ноябрь 2021 - октябрь 2022</span>
           <div>
             <strong>Курс Фронтенд-разработчик от HTML Academy.</strong>{' '}
-            <a href="https://assets.htmlacademy.ru/certificates/profession/39/1875311.pdf?1665069782&_ga=2.193242148.86894964.1665994142-270059664.1655958253">
+            <a
+              href='https://assets.htmlacademy.ru/certificates/profession/39/1875311.pdf?1665069782&_ga=2.193242148.86894964.1665994142-270059664.1655958253'
+              target='blank'
+            >
               Сертификат
             </a>
             <p>

@@ -5,9 +5,11 @@ import {
   SocialLinkImage,
   ContactLink,
   SocialLink,
+  GithubLink
 } from './styled';
 import telegramm from '../../../assets/telegram.svg';
 import watsapp from '../../../assets/whatsapp.svg';
+import github from '../../../assets/github.svg';
 
 export default function Contacts({ className }) {
   return (
@@ -30,9 +32,10 @@ export default function Contacts({ className }) {
         </SocialLink>
       </div>
       <p>
-        <ContactLink href="https://github.com/DenisJet">
-          Сылка на мой GitHub
-        </ContactLink>
+        <GithubLink href="https://github.com/DenisJet">
+          GitHub
+          <SocialLinkImage src={github} alt="ссылка на гитхаб" />
+        </GithubLink>
       </p>
     </StyledSection>
   );

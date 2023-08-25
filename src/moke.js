@@ -8,8 +8,8 @@ export const projects = [
     description:
       'Пэт проект. TypeScript, React, Redux, Redux Toolkit, RTKQuery, Tailwind CSS. Axios.',
     opinion:
-      'Несложный проект, по поиску репозиториев на Гитхабе. Завремя реализации проекта познакомился RTKQuery, Tailwind CSS. Это первый мой проект на TypesCript',
-    link: 'https://denisjet-wtw.netlify.app/',
+      'Несложный проект, по поиску репозиториев на Гитхабе. Завремя реализации проекта познакомился с RTKQuery, Tailwind CSS. Это первый мой проект на TypesCript',
+    link: 'https://denisjet-githubsearch.netlify.app/',
     repolink: 'https://github.com/DenisJet/github-search',
   },
   {
@@ -22,7 +22,7 @@ export const projects = [
       'Учебный проект. React. React-router. React Hooks (useState, useEffect, useRef и др.). Redux, Redux Toolkit. Axios. Jest.',
     opinion:
       'Сервис позволяет просматривать видео, ставить оценки и отзывы. За время реализации проекта более близко познакомился с библиотекой React. В проекте затронуты такие моменты как: маршрутизация - React Router и приватные маршруты в React Router, работа с хуками, работа с формами. Реализованно хранилище состояния при помощи Redux Toolkit и асинхронность в Redux при помощи middlewares, redux-thunk. Научился тестировать приложение при помощи Unit тестов и библиотеки Jest. Для работы с сервером используется библиотека Axios. Реализована авторизация.',
-    link: 'https://denisjet-githubsearch.netlify.app/',
+    link: 'https://denisjet-wtw.netlify.app/',
     repolink: 'https://github.com/DenisJet/wtw',
   },
   {
@@ -43,7 +43,7 @@ export const projects = [
     name: 'Большое путешествие',
     image: 'images/big-trip.png',
     title: 'Cовременный сервис для путешественников.',
-    description: 'Учебный проект. SPA на чистом JavaScript. ООП. MVP.',
+    description: 'Учебный проект. SPA на чистом JavaScript. ООП. MVP. REST Api',
     opinion:
       'Сервис помогает детально спланировать маршрут поездки, рассчитать стоимость путешествия и получить информацию о достопримечательностях. За время реализации проекта познакомился с ООП. В проекте используется классовый подход. Научился применять архитектурный паттерн MVP. Разобрался с REST Api. Так же используются паттерны Адаптер и Observer (Наблюдатель). Познакомился с работой сервис-воркеров.',
     link: 'https://denisjet-big-trip.netlify.app/',
