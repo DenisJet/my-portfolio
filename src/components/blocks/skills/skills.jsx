@@ -11,6 +11,8 @@ import gitImg from '../../../assets/git.svg';
 import reduxImg from '../../../assets/redux.svg';
 import jestImg from '../../../assets/jest.svg';
 import tsImg from '../../../assets/typescript.svg';
+import nodeImg from '../../../assets/nodejs.svg';
+import mongoDb from '../../../assets/mongodb.svg';
 
 export default function Skills({ className }) {
   return (
@@ -18,47 +20,55 @@ export default function Skills({ className }) {
       <h2>Скиллы</h2>
       <SkillsUl>
         <li>
-          <SkillsImage src={tsImg} alt="javascript" />
+          <SkillsImage src={tsImg} alt='javascript' />
           <SkillsText>TypeScript</SkillsText>
         </li>
         <li>
-          <SkillsImage src={jsImg} alt="javascript" />
+          <SkillsImage src={jsImg} alt='javascript' />
           <SkillsText>JavaScript</SkillsText>
         </li>
         <li>
-          <SkillsImage src={reactImg} alt="react" />
+          <SkillsImage src={nodeImg} alt='javascript' />
+          <SkillsText>Node JS</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={reactImg} alt='react' />
           <SkillsText>React</SkillsText>
         </li>
         <li>
-          <SkillsImage src={reduxImg} alt="sass" />
+          <SkillsImage src={reduxImg} alt='sass' />
           <SkillsText>Redux</SkillsText>
         </li>
         <li>
-          <SkillsImage src={htmImg} alt="HTML" />
+          <SkillsImage src={mongoDb} alt='sass' />
+          <SkillsText>Mongo DB</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={htmImg} alt='HTML' />
           <SkillsText>HTML</SkillsText>
         </li>
         <li>
-          <SkillsImage src={cssImg} alt="css" />
+          <SkillsImage src={cssImg} alt='css' />
           <SkillsText>Css</SkillsText>
         </li>
         <li>
-          <SkillsImage src={sassImg} alt="sass" />
+          <SkillsImage src={sassImg} alt='sass' />
           <SkillsText>Sass</SkillsText>
         </li>
         <li>
-          <SkillsImage src={jestImg} alt="webpack" />
+          <SkillsImage src={jestImg} alt='webpack' />
           <SkillsText>Jest</SkillsText>
         </li>
         <li>
-          <SkillsImage src={gulpImg} alt="gulp" />
+          <SkillsImage src={gulpImg} alt='gulp' />
           <SkillsText>Gulp</SkillsText>
         </li>
         <li>
-          <SkillsImage src={webpackImg} alt="webpack" />
+          <SkillsImage src={webpackImg} alt='webpack' />
           <SkillsText>Webpack</SkillsText>
         </li>
         <li>
-          <SkillsImage src={gitImg} alt="git" />
+          <SkillsImage src={gitImg} alt='git' />
           <SkillsText>Git</SkillsText>
         </li>
       </SkillsUl>
