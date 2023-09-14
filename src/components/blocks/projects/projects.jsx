@@ -12,33 +12,25 @@ import {
 import { useState } from 'react';
 
 export default function Projects({ projects, className }) {
-  const [activeTab, setActiveTab] = useState('учебные');
+  const [activeTab, setActiveTab] = useState('коммерческие');
 
-  const activeProjects = projects.filter(
-    (project) => project.type === activeTab
-  );
+  const activeProjects = projects.filter((project) => project.type === activeTab);
 
   return (
     <ProjectSection className={className}>
       <TabsList>
         <h2>Мои проекты:</h2>
         <TabBtn
-          isActive={activeTab === 'учебные'}
-          onClick={() => setActiveTab('учебные')}
-        >
-          учебные
-        </TabBtn>
-        <TabBtn
           isActive={activeTab === 'коммерческие'}
           onClick={() => setActiveTab('коммерческие')}
         >
           коммерческие
         </TabBtn>
-        <TabBtn
-          isActive={activeTab === 'pet-проекты'}
-          onClick={() => setActiveTab('pet-проекты')}
-        >
+        <TabBtn isActive={activeTab === 'pet-проекты'} onClick={() => setActiveTab('pet-проекты')}>
           pet-проекты
+        </TabBtn>
+        <TabBtn isActive={activeTab === 'учебные'} onClick={() => setActiveTab('учебные')}>
+          учебные
         </TabBtn>
       </TabsList>
 
@@ -53,12 +45,21 @@ export default function Projects({ projects, className }) {
                 <p>{project.title}</p>
                 <p>{project.description}</p>
                 <p>{project.opinion}</p>
-                <ProjectLink href={project.link} target='blank'>
-                  Ссылка на пример проекта
-                </ProjectLink>
-                <ProjectLink href={project.repolink} target='blank'>
-                  Ссылка на репозиторий
-                </ProjectLink>
+                {project.link && (
+                  <ProjectLink href={project.link} target='blank'>
+                    Ссылка на пример проекта
+                  </ProjectLink>
+                )}
+                {project.repolinkFront && (
+                  <ProjectLink href={project.repolinkFront} target='blank'>
+                    Ссылка на репозиторий фронтенд
+                  </ProjectLink>
+                )}
+                {project.repolinkBack && (
+                  <ProjectLink href={project.repolinkBack} target='blank'>
+                    Ссылка на репозиторий бэкенд
+                  </ProjectLink>
+                )}
               </ProjectDescription>
             </ProjectItem>
           ))}
