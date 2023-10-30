@@ -12,7 +12,9 @@ import reduxImg from '../../../assets/redux.svg';
 import jestImg from '../../../assets/jest.svg';
 import tsImg from '../../../assets/typescript.svg';
 import nodeImg from '../../../assets/nodejs.svg';
-import mongoDb from '../../../assets/mongodb.svg';
+import mongoDbImg from '../../../assets/mongodb.svg';
+import nestJsImg from '../../../assets/nestjs.svg';
+import dockerImg from '../../../assets/docker.svg';
 
 export default function Skills({ className }) {
   return (
@@ -28,19 +30,23 @@ export default function Skills({ className }) {
           <SkillsText>JavaScript</SkillsText>
         </li>
         <li>
-          <SkillsImage src={nodeImg} alt='javascript' />
+          <SkillsImage src={nodeImg} alt='nodejs' />
           <SkillsText>Node JS</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={nestJsImg} alt='nestjs' />
+          <SkillsText>Nest JS</SkillsText>
         </li>
         <li>
           <SkillsImage src={reactImg} alt='react' />
           <SkillsText>React</SkillsText>
         </li>
         <li>
-          <SkillsImage src={reduxImg} alt='sass' />
+          <SkillsImage src={reduxImg} alt='redux' />
           <SkillsText>Redux</SkillsText>
         </li>
         <li>
-          <SkillsImage src={mongoDb} alt='sass' />
+          <SkillsImage src={mongoDbImg} alt='mongoDB' />
           <SkillsText>Mongo DB</SkillsText>
         </li>
         <li>
@@ -56,7 +62,7 @@ export default function Skills({ className }) {
           <SkillsText>Sass</SkillsText>
         </li>
         <li>
-          <SkillsImage src={jestImg} alt='webpack' />
+          <SkillsImage src={jestImg} alt='jest' />
           <SkillsText>Jest</SkillsText>
         </li>
         <li>
@@ -70,6 +76,10 @@ export default function Skills({ className }) {
         <li>
           <SkillsImage src={gitImg} alt='git' />
           <SkillsText>Git</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={dockerImg} alt='docker' />
+          <SkillsText>Docker</SkillsText>
         </li>
       </SkillsUl>
     </StyledSection>
