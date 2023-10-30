@@ -10,6 +10,27 @@ export default function EdAndExp({ className }) {
       </SectionTitle>
       <ul>
         <li>
+          <span>март 2023 — сентябрь 2023</span>
+          <div>
+            <p>
+              <strong>Clean House.</strong>
+            </p>
+            <p>
+              <strong>Веб-разработчик.</strong>
+            </p>
+            <p>
+              Создание, разработка и администрирование сайта компании. Используемые технологии:
+              HTML, CSS, SCSS, JavaScript, GULP.
+            </p>
+            <p>
+              Cайт компании -{' '}
+              <a href='https://cleanhouse-ses.ru/' target='blank'>
+                https://cleanhouse-ses.ru/
+              </a>
+            </p>
+          </div>
+        </li>
+        <li>
           <span>ноябрь 2022 - август 2023</span>
           <div>
             <strong>Курс React-разработчик от HTML Academy.</strong>{' '}
@@ -39,7 +60,10 @@ export default function EdAndExp({ className }) {
                 <p>Разработка веб-приложений на React:</p>
                 <p> - маршрутизация React Router</p>
                 <p> - состояние (state), React Hooks, useEffect, ref, формы, HOC </p>
-                <p> - Redux, Redux Toolkit, асинхронность в Redux, Middlewares, redux-thunk, Axios</p>
+                <p>
+                  {' '}
+                  - Redux, Redux Toolkit, асинхронность в Redux, Middlewares, redux-thunk, Axios
+                </p>
                 <p> - тестирование React, юнит-тестирование, Jest</p>
               </li>
             </ol>
@@ -56,15 +80,14 @@ export default function EdAndExp({ className }) {
               Сертификат
             </a>
             <p>
-              За время курса приобрел навыки семантической, валидной,
-              адаптивной, резиновой, кроссбраузерной, PixelPerfect вёрстки по
-              макетам Figma. Ретинизация графики, этих проектов и адаптивность и
-              оптимизация изображений.
-              <br /> Научился работать с объектами и массивами, с DOM деревом и
-              событиями в JavaScript. А так же работать с сетью: синхронные и
-              асинхронные операции, JSON, промисы, Fetch API.
-              <br /> Приобрёл опыт создания SPA, с использованием библиотеки
-              React (styled-components, react-hooks, react-router).
+              За время курса приобрел навыки семантической, валидной, адаптивной, резиновой,
+              кроссбраузерной, PixelPerfect вёрстки по макетам Figma. Ретинизация графики, этих
+              проектов и адаптивность и оптимизация изображений.
+              <br /> Научился работать с объектами и массивами, с DOM деревом и событиями в
+              JavaScript. А так же работать с сетью: синхронные и асинхронные операции, JSON,
+              промисы, Fetch API.
+              <br /> Приобрёл опыт создания SPA, с использованием библиотеки React
+              (styled-components, react-hooks, react-router).
             </p>
           </div>
         </li>
