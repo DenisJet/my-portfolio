@@ -15,6 +15,7 @@ import nodeImg from '../../../assets/nodejs.svg';
 import mongoDbImg from '../../../assets/mongodb.svg';
 import nestJsImg from '../../../assets/nestjs.svg';
 import dockerImg from '../../../assets/docker.svg';
+import nextJsImg from '../../../assets/nextjs.svg';
 
 export default function Skills({ className }) {
   return (
@@ -40,6 +41,10 @@ export default function Skills({ className }) {
         <li>
           <SkillsImage src={reactImg} alt='react' />
           <SkillsText>React</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={nextJsImg} alt='nextjs' />
+          <SkillsText>Next JS</SkillsText>
         </li>
         <li>
           <SkillsImage src={reduxImg} alt='redux' />
