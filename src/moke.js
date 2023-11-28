@@ -1,11 +1,23 @@
 export const projects = [
   {
+    id: 11,
+    type: 'pet-проекты',
+    name: 'Telegram Bot',
+    image: 'images/tgbot.png',
+    title: 'Телеграм бот.',
+    description: 'Nest JS, Next JS, TypeScript, PostgreSQL, Telegram Bot Api',
+    opinion:
+      'Телеграмм бот, который умеет создавать и увеличивать репутацию участников в чате. Реализована страница просмотра репутаций.',
+    repolinkFront: 'https://github.com/DenisJet/tgbot-client',
+    repolinkBack: 'https://github.com/DenisJet/tgbot-server',
+  },
+  {
     id: 10,
     type: 'pet-проекты',
     name: 'Spotify-Clone',
     image: 'images/spotify-clone.png',
     title: 'Full stack проект, музыкальная платформа.',
-    description: 'Nest JS, Next JS, TypeScript, Mongo DB',
+    description: 'Nest JS, SSR на Next JS, TypeScript, Mongo DB, Material Ui',
     opinion:
       'Реализована загрузка, прослушивание и удаление музыкальных треков, загрузка изображений для обложки трека. Есть возможность оставлять комментарии. Так же реализована работа музыкального плеера.',
     repolinkFront: 'https://github.com/DenisJet/spotify-clone-client',
