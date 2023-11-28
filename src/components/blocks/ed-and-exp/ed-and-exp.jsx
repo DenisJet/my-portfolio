@@ -10,7 +10,7 @@ export default function EdAndExp({ className }) {
       </SectionTitle>
       <ul>
         <li>
-          <span>март 2023 — сентябрь 2023</span>
+          <span>с марта 2023</span>
           <div>
             <p>
               <strong>Clean House.</strong>
