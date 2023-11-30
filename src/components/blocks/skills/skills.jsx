@@ -16,6 +16,7 @@ import mongoDbImg from '../../../assets/mongodb.svg';
 import nestJsImg from '../../../assets/nestjs.svg';
 import dockerImg from '../../../assets/docker.svg';
 import nextJsImg from '../../../assets/nextjs.svg';
+import postgreSql from '../../../assets/postgresql.svg';
 
 export default function Skills({ className }) {
   return (
@@ -53,6 +54,10 @@ export default function Skills({ className }) {
         <li>
           <SkillsImage src={mongoDbImg} alt='mongoDB' />
           <SkillsText>Mongo DB</SkillsText>
+        </li>
+        <li>
+          <SkillsImage src={postgreSql} alt='postgreSql' />
+          <SkillsText>PostgreSQL</SkillsText>
         </li>
         <li>
           <SkillsImage src={htmImg} alt='HTML' />
