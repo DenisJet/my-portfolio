@@ -1,5 +1,16 @@
 export const projects = [
   {
+    id: 12,
+    type: 'pet-проекты',
+    name: 'Live Chat',
+    image: 'images/online-chat.png',
+    title: 'Чат в реальном времени.',
+    description: 'Nest JS, PostgreSQL, Prisma, Socket.IO',
+    opinion: 'Чат в реальном времени. За время создания проекта, впервые ознакомился с Socket.IO.',
+    link: 'https://online-chat-c8eu.onrender.com/chat',
+    repolinkBack: 'https://github.com/DenisJet/live-chat-server',
+  },
+  {
     id: 11,
     type: 'pet-проекты',
     name: 'Telegram Bot',
