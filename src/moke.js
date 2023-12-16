@@ -40,8 +40,7 @@ export const projects = [
     name: 'BLOG ME',
     image: 'images/blog-me.png',
     title: 'Блог, с возможностью написания статей.',
-    description:
-      'MongoDB, Express, React, NodeJS, Material Ui, Redux Toolkit, Axios, JWT, BCrypt, Multer',
+    description: 'MongoDB, Express, React, NodeJS, Material Ui, Redux Toolkit, Axios, JWT, BCrypt, Multer',
     opinion:
       'Первый мой full stack проект, за время написания которого научился создавать свой бэкенд. В проекте реализована регистрация и авторизация пользователей. Чтение, создание, удаление, изменение статей (CRUD). Загрузка изображений на сервер. Возможность оставлять комментарии и т.д.',
     link: 'https://blogmern.netlify.app/',
@@ -81,7 +80,7 @@ export const projects = [
     title: 'Сайт службы по уничтожению насекомых.',
     description:
       'Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, Sass, Gulp. Оптимизация изображений.',
-    opinion: 'Сайт полностью мной придуман, разработан и выложен на хостинг.',
+    opinion: 'Создание и разработка страниц сайта.',
     link: 'https://cleanhouse-ses.ru',
     repolinkFront: 'https://github.com/DenisJet/CleanHouse',
   },
