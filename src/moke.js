@@ -79,7 +79,7 @@ export const projects = [
     image: 'images/cleanhouse.png',
     title: 'Сайт службы по уничтожению насекомых.',
     description:
-      'Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, Sass, Gulp. Оптимизация изображений.',
+      'Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, SCSS, Gulp, SwiperJS. Оптимизация изображений.',
     opinion: 'Создание и разработка страниц сайта.',
     link: 'https://cleanhouse-ses.ru',
     repolinkFront: 'https://github.com/DenisJet/CleanHouse',
