@@ -1,5 +1,18 @@
 export const projects = [
   {
+    id: 13,
+    type: 'коммерческие',
+    name: 'Реставрация ванн',
+    image: 'images/restavracia.png',
+    title: 'Landing Page.',
+    description:
+      'Семантическая, адаптивная вёрстка, с использованием таких инструментов как Gulp, SCSS, Pug, Bootstrap.',
+    opinion:
+      'Несложный лэндинг, за время создания которого познакомился  с шаблонизатором Pug, который понравился удобной возможностью создавать отдельные блоки для верстки. А так же познакомился с Bootstrap, который очень ускоряет вёрстку (но работать с Sass, мне нравится больше).',
+    link: 'http://restavracia--vann.ru/',
+    repolinkFront: 'https://github.com/DenisJet/remont-vann',
+  },
+  {
     id: 12,
     type: 'pet-проекты',
     name: 'Live Chat',
