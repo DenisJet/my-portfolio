@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 13,
+    id: 14,
     type: 'коммерческие',
     name: 'Реставрация ванн',
     image: 'images/restavracia.png',
@@ -11,6 +11,17 @@ export const projects = [
       'Несложный лэндинг, за время создания которого познакомился  с шаблонизатором Pug, который понравился удобной возможностью создавать отдельные блоки для верстки. А так же познакомился с Bootstrap, который очень ускоряет вёрстку (но работать с Sass, мне нравится больше).',
     link: 'http://restavracia--vann.ru/',
     repolinkFront: 'https://github.com/DenisJet/remont-vann',
+  },
+  {
+    id: 13,
+    type: 'коммерческие',
+    name: 'Krossover',
+    image: 'images/krossover.png',
+    title: 'Интернет магазин обуви',
+    description: 'Интернет магазин, созданный с помощью CMS WordPress.',
+    opinion:
+      'Сайт для продажи обуви через интернет, созданный для моего хорошего друга. За время создания сайта освоил навык работы с WordPress.',
+    link: 'https://krossover-shoes.ru/',
   },
   {
     id: 12,
@@ -93,7 +104,7 @@ export const projects = [
     title: 'Сайт службы по уничтожению насекомых.',
     description:
       'Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, SCSS, Gulp, SwiperJS. Оптимизация изображений.',
-    opinion: 'Создание и разработка страниц сайта.',
+    opinion: 'Создание и разработка страниц сайта с нуля.',
     link: 'https://cleanhouse-ses.ru',
     repolinkFront: 'https://github.com/DenisJet/CleanHouse',
   },
