@@ -1,5 +1,18 @@
 export const projects = [
   {
+    id: 15,
+    type: 'pet-проекты',
+    name: 'My Top',
+    image: 'images/mytop.png',
+    title: 'Рейтинг курсов, сервисов, книг ...',
+    description: 'Nest JS, Next JS, MongoDB, TypeScript',
+    opinion:
+      'На NestJS реализован api по созданию, удалению, редактированию, поиску страниц и продуктов. Подключена база данных MongoDB, произведена интеграция телеграм бота при помощи telegraf. А так же настроена регистрация и авторизация при помощи passport-jwt. Осуществлен SSR на NextJS. Присутствует динамический роутинг, работа с формами, немного анимации на Frame Motion, доступность. Кроме того проект запакован в docker контейнера при помощи github actions и развернут в облачном сервисе.',
+    link: 'http://5.35.88.143:3000/courses/react',
+    repolinkFront: 'https://github.com/DenisJet/mytop-app',
+    repolinkBack: 'https://github.com/DenisJet/mytop-api',
+  },
+  {
     id: 14,
     type: 'коммерческие',
     name: 'Реставрация ванн',
