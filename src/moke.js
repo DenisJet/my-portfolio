@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     id: 11,
-    type: 'pet-проекты',
+    type: 'учебные',
     name: 'Telegram Bot',
     image: 'images/tgbot.png',
     title: 'Телеграм бот.',
@@ -86,7 +86,7 @@ export const projects = [
   },
   {
     id: 8,
-    type: 'pet-проекты',
+    type: 'учебные',
     name: 'Github Seasch',
     image: 'images/githubsearch.png',
     title: 'Поиск репозиториев на Гитхабе по имени пользователя.',
