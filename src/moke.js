@@ -1,5 +1,15 @@
 export const projects = [
   {
+    id: 16,
+    type: 'коммерческие',
+    name: 'arenda-satka.ru',
+    image: 'images/arenda-satka.png',
+    title: 'Cервис по аренде квартир.',
+    description: 'Семантическая, валидная, адаптивная, резиновая, кроссбраузерная вёрстка. БЭМ, SCSS, Gulp, SwiperJS.',
+    opinion: '',
+    link: 'https://arendasatka.ru/',
+  },
+  {
     id: 15,
     type: 'pet-проекты',
     name: 'My Top',
