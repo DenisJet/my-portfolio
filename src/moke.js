@@ -1,5 +1,18 @@
 export const projects = [
   {
+    id: 17,
+    type: 'pet-проекты',
+    name: 'My ToDo List',
+    image: 'images/mytodo.png',
+    title: 'Список задач.',
+    description: 'Nest JS, Next JS, MongoDB, TypeScript',
+    opinion:
+      'В приложении реализован функционал добавления новой задачи с указанием заголовка, описания и статуса. Так же есть возможность изменения и удаления существующих задач. Приложение развернуто на сервере из docker контейнера, можете добавить мне пару задач)).',
+    link: 'http://5.35.89.103:3000/',
+    repolinkFront: 'https://github.com/DenisJet/mytodo-client',
+    repolinkBack: 'https://github.com/DenisJet/mytodo-server',
+  },
+  {
     id: 16,
     type: 'коммерческие',
     name: 'arenda-satka.ru',
@@ -42,8 +55,7 @@ export const projects = [
     image: 'images/krossover.png',
     title: 'Интернет магазин обуви',
     description: 'Интернет магазин, созданный с помощью CMS WordPress.',
-    opinion:
-      'Сайт для продажи обуви через интернет, созданный для моего хорошего друга. За время создания сайта освоил навык работы с WordPress.',
+    opinion: 'Сайт для продажи обуви через интернет. За время создания сайта освоил навык работы с WordPress.',
     link: 'https://krossover-shoes.ru/',
   },
   {
